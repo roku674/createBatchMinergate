@@ -131,7 +131,7 @@ public class CreateBatch {
 	private static String GetGPU(){
 		String temp = "";
 		
-		for(int i = 0; i < gpuAmount; i++) {
+		for(int i = 0; i <= gpuAmount; i++) {
 			temp += "--gpu" + " " + i + " ";
 		}
 			
